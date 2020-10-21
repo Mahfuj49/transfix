@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include gradient;
+
+    color: $color-text-white;
+    text-align: center;
+
+    padding: 4rem 0;
+    position: relative;
+
+    &__secondary-text {
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+        background-color: hsla(0, 0, 100%, .1);
+
+        padding: 1rem 1.5rem;
+        display: inline-block;
+        border-radius: 5px;
+    }
+
+    &__primary-text {
+        font-weight: 300;
+        font-size: 5rem;
+    }
+
+    &__visuals {
+        flex: 0 0 100%;
+
+        text-align: center;
+    }
+
+    &__photo {
+        width: 80%;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        opacity: 0;
+        height: 5px;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: loading 2s ease-in;
+    }
+}

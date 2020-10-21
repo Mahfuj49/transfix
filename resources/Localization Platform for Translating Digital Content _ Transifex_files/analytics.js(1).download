@@ -1,0 +1,15 @@
+(function() {
+  if (typeof analytics == "undefined")
+    return;
+  analytics.initialize(
+    {},
+    {user: {persist: false}}
+  );
+  $.ajax({
+    url: "/_/user/js/identify/",
+    success: function(identifier) {
+      analytics.identify(identifier);
+      analytics.page();
+    }
+  });
+})();

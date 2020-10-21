@@ -1,0 +1,48 @@
+.btn {
+    text-transform: uppercase;
+    color: $color-text-white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: inherit;
+
+    padding: 1.3rem 5.8rem;
+    border-radius: 5px;
+    border: none;
+
+    &--blue {
+        margin-right: 1rem;
+        background-color: $color-text-blue;
+        transition: background-color 1s ease;
+    }
+
+    &--transparent {
+        background-color: transparent;
+        margin-left: 1rem;
+        border: 1px solid hsla(0, 0, 100%, .4);
+        transition: background-color 1s ease;
+    }
+
+    &--blue:hover,
+    &--blue:active {
+        background-color: $color-text-blue-dark;
+    }
+
+    &--transparent:hover,
+    &--transparent:active {
+        background-color: rgba(0, 0, 0, .2);
+    }
+
+    &--small {
+        color: $color-text-blue-dark;
+
+        background-color: transparent;
+        border: 1px solid $color-text-grey-light;
+        transition: all .5s ease;
+
+        &:hover,
+        &:active {
+            background-color: rgba(0, 0, 0, .2);
+            color: $color-text-white;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="49px" height="38px" viewBox="0 0 49 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-331.000000, -34.000000)">
+            <g id="4" transform="translate(331.556477, 34.000000)">
+                <g id="Icon">
+                    <path d="M1,2.00285922 L1,2.00285922 L1,35.9971408 C1,36.5481998 1.45066969,37 2.00138927,37 L45.9986107,37 C46.5521414,37 47,36.5516401 47,35.9971408 L47,2.00285922 C47,1.4518002 46.5493303,1 45.9986107,1 L2.00138927,1 C1.44785855,1 1,1.44835988 1,2.00285922 L1,2.00285922 Z M0,2.00285922 C0,0.896710617 0.894938439,0 2.00138927,0 L45.9986107,0 C47.1039475,0 48,0.90185079 48,2.00285922 L48,35.9971408 C48,37.1032894 47.1050616,38 45.9986107,38 L2.00138927,38 C0.896052496,38 0,37.0981492 0,35.9971408 L0,2.00285922 L0,2.00285922 Z" id="Rectangle-129" fill="#818793"></path>
+                    <path d="M3.13333333,3.10372291 L3.13333333,3.10372291 L3.13333333,34.8962771 C3.13333333,34.8877567 3.13446298,34.8888889 3.12893486,34.8888889 L44.8710651,34.8888889 C44.8686363,34.8888889 44.8666667,34.8908508 44.8666667,34.8962771 L44.8666667,3.10372291 C44.8666667,3.11224328 44.865537,3.11111111 44.8710651,3.11111111 L3.12893486,3.11111111 C3.13136365,3.11111111 3.13333333,3.10914917 3.13333333,3.10372291 L3.13333333,3.10372291 Z M2.13333333,3.10372291 C2.13333333,2.55551855 2.58042276,2.11111111 3.12893486,2.11111111 L44.8710651,2.11111111 C45.4209207,2.11111111 45.8666667,2.56306201 45.8666667,3.10372291 L45.8666667,34.8962771 C45.8666667,35.4444815 45.4195772,35.8888889 44.8710651,35.8888889 L3.12893486,35.8888889 C2.57907932,35.8888889 2.13333333,35.436938 2.13333333,34.8962771 L2.13333333,3.10372291 L2.13333333,3.10372291 Z" id="Rectangle-129" fill="#818793"></path>
+                    <rect id="Rectangle-131" fill="#818793" x="5" y="5" width="1.6" height="1.05555556"></rect>
+                    <rect id="Rectangle-131-Copy-2" fill="#818793" x="8" y="5" width="1.6" height="1.05555556"></rect>
+                    <rect id="Rectangle-131-Copy-3" fill="#818793" x="11" y="5" width="1.6" height="1.05555556"></rect>
+                    <rect id="Rectangle-131" fill="#818793" x="14" y="5" width="28.2700005" height="1.05555556"></rect>
+                    <rect id="Rectangle-131-Copy-4" fill="#818794" opacity="0.2" x="3" y="7.66666667" width="42" height="1.05555556"></rect>
+                    <rect id="Rectangle-131" fill="#818794" opacity="0.2" x="20.2666667" y="25" width="21.3333333" height="6.72222222"></rect>
+                    <rect id="Rectangle-131-Copy" fill="#818794" opacity="0.2" x="20" y="12" width="21.3333333" height="10.0555556"></rect>
+                    <circle id="Oval-16" fill="#818793" cx="31" cy="17" r="2"></circle>
+                    <rect id="Rectangle-131-Copy-5" fill="#818794" opacity="0.2" x="6" y="12" width="8" height="1.05555556"></rect>
+                    <rect id="Rectangle-131-Copy-5" fill="#818794" opacity="0.2" transform="translate(17.527778, 21.736111) rotate(-270.000000) translate(-17.527778, -21.736111) " x="7.79166667" y="21.2083333" width="19.4722222" height="1.05555556"></rect>
+                    <rect id="Rectangle-131-Copy-5" fill="#818794" opacity="0.2" x="6" y="15" width="8" height="1.05555556"></rect>
+                    <rect id="Rectangle-131-Copy-5" fill="#818794" opacity="0.2" x="6" y="18" width="8" height="1.05555556"></rect>
+                    <rect id="Rectangle-131-Copy-5" fill="#818794" opacity="0.2" x="6" y="21" width="8" height="1.05555556"></rect>
+                    <rect id="Rectangle-131-Copy-5" fill="#818794" opacity="0.2" x="6" y="24" width="8" height="1.05555556"></rect>
+                    <rect id="Rectangle-131-Copy-5" fill="#818794" opacity="0.2" x="6" y="27" width="8" height="1.05555556"></rect>
+                    <rect id="Rectangle-131-Copy-5" fill="#818794" opacity="0.2" x="6" y="30" width="8" height="1.05555556"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

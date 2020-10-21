@@ -1,0 +1,42 @@
+.footer {
+    padding: 4rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__nav {
+        display: flex;
+
+        font-size: 1.3rem;
+
+        & > * {
+            padding: 0 2rem;
+        }
+    }
+
+    &__links {
+
+    }
+
+    &__logo {
+        width: 8.5rem;
+        height: 1.7rem;
+    }
+
+    &__info {
+
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        padding: .5rem;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+}

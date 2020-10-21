@@ -1,0 +1,20 @@
+.social-links {
+    list-style: none;
+
+    display: flex;
+
+    &__icon {
+        width: 1.6rem;
+        height: 1.6rem;
+        fill: $color-text-grey;
+        transition: all .5s ease;
+
+        &:hover {
+            fill: $color-text-grey-light;
+        }
+    }
+
+    & > * {
+        padding: 0 1rem;
+    }
+}

@@ -1,0 +1,16 @@
+.messenger {
+
+    &__trigger {
+        
+    }
+
+    &__chat-box {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    &__trigger:checked ~ &__chat-box {
+        visibility: visible;
+        opacity: 1;
+    }
+}

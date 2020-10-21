@@ -1,0 +1,111 @@
+.solution {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+
+    &__type {
+        list-style: none;
+        border-top: .5px solid $color-text-grey;
+        border-bottom: .5px solid $color-text-grey;
+
+        @include respond(phone) {
+            border-top: 1px solid $color-text-grey;
+            border-bottom: 1px solid $color-text-grey;
+        }
+
+        padding: 4.2rem;
+        height: 58rem;
+
+        flex: 0 0 35rem;
+
+        &--left {
+            border-left: .5px solid $color-text-grey;
+            border-right: .5px solid $color-text-grey;
+
+            @include respond(phone) {
+                border-left: 1px solid $color-text-grey;
+                border-right: 1px solid $color-text-grey;
+            }
+
+            @media only screen and (max-width: 37.5em) {
+                border-left: 1px solid $color-text-grey;
+                border-right: 1px solid $color-text-grey;
+            }
+        }
+
+        &--right {
+            border-right: .5px solid $color-text-grey;
+
+            @include respond(phone) {
+                border-right: 1px solid $color-text-grey;
+            }
+        }
+    }
+
+    &__item {
+
+    }
+
+    &__secondary-text {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: $color-text-white;
+
+        padding: .6rem 1rem;
+        display: inline-block;
+        border-radius: 5px;
+
+        &--file {
+            background-color: $color-text-black;
+        }
+
+        &--live {
+            background-color: $color-text-blue;
+        }
+    }
+
+    &__primary-text {
+        color: $color-text-primary;
+        font-size: 2.5rem;
+    }
+
+    &__description {
+        color: $color-text-grey;
+        font-weight: 300;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    &__spec {
+        text-align: left;
+
+        display: flex;
+        align-items: center;
+
+        &:not(:last-child) {
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    &__icon {
+        display: inline-block;
+        padding: .8rem 1.5rem;
+        margin-right: 1rem;
+        border-radius: 50%;
+
+        &--blue {
+            border: 1px solid $color-text-blue;
+
+            color: $color-text-blue;
+        }
+
+        &--black {
+            border: 1px solid $color-text-black;
+        }
+    }
+
+    &__text {
+        font-size: 1.8rem;
+    }
+}
